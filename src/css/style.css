@@ -1,0 +1,259 @@
+.tableviewclients{
+    border-collapse: collapse;
+    overflow-x:scroll;
+    width: 100%;
+    font-weight: 900;
+    margin-top: 20px;
+    height: 900px;
+    font-weight: 700;
+}
+
+.tableviewclients thead tr{
+    background-color: #0039BD; 
+    color: #DEDEDE;
+    height: 100%;
+}
+
+.tableviewclients th, .tableviewclients td {
+    padding: 0px 15px ;
+}
+
+.tableviewclients tbody tr{
+    border-bottom: 1px solid #DEDEDE; 
+}
+
+.tableviewclients tbody tr:last-of-type(even){
+    background-color: #DEDEDE;
+}
+
+.tableviewclients tbody tr:last-of-type {
+    border-bottom: 2px solid #DEDEDE;
+}
+
+
+
+.homeslide{
+    font-size: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #DEDEDE;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+   
+}
+
+.homeslide ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    height: 100%;
+    animation: slice 9s infinite alternate ease-in-out;
+}
+
+.homeslide li{
+    list-style: none;
+    width: 100%;
+}
+
+.homeslide img
+{
+    width: 100%;
+    height: 200%;
+}
+
+.homeslide p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@keyframes slice {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+}
+
+.menu{
+
+    width: 100%;
+    background: #0039BD;
+    font-weight: 700;
+
+}
+
+.oculto{
+    visibility: hidden ;
+}
+.menu img{
+    width: 10%;
+}
+
+.formregister
+{
+    margin-top: 1%;
+    font-weight: 700;
+    background-color: rgba(0, 57, 189, 0.4);
+    color: #DEDEDE;;
+}
+.prefix{
+    display: block;
+}
+*:disabled {
+    background-color:#ffffff;
+    color: black;
+    opacity: 1;
+  }
+
+.submenu{
+    color:#DEDEDE;
+    font-weight: 700;
+}
+
+.submenu img{
+    align-items: center;
+    height: 75%;
+    width: 75%;
+}
+
+
+
+.raffle{
+   border-radius: 30px;
+    margin-top: 10%;
+    max-width: 50%;
+    color:#DEDEDE;
+    background-color: rgba(0, 57, 189, 0.4);
+}
+
+
+.raffle span{
+    text-justify: inter-word;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10%;
+    
+}
+
+.raffle-text{
+    text-align:justify;
+    text-justify: inter-word;
+    color: #DEDEDE;
+}
+
+@keyframes rotacion {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.ticketpurchase {
+    border: 3px solid #ffffff;
+    width: 10rem;
+    color: black;
+    height: 10rem;
+    border-radius: 50%;
+    /*background: red;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .qr{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10%;
+  }
+
+
+  .backgif-home{
+    overflow-y:inherit;
+    max-width: 101%;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-image: url('../../public/bg_video.gif');
+  } 
+
+
+
+
+  .bac-about{
+    overflow-y:inherit;
+        max-width: 101%;
+        font-weight: 700;
+    height: 900px;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    background-image: url('../../public/fondoabout.jpg');
+  }
+
+  .card-about{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70%;
+    color: #DEDEDE;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .card-about h2{
+    font-weight: 900;
+  }
+
+  .submenufooter {
+    text-align: center;
+    color:#DEDEDE;
+    font-weight: 700;
+}
+
+.submenufooter img{
+    height: 60%;
+    width: 60%;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  .bg-text-homeslide{
+    margin-top: 25%;
+    background-color: rgba(0, 57, 189, 0.4);
+    border-radius: 30px;
+  }

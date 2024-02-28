@@ -1,0 +1,42 @@
+.bg-modals {
+    align-items: center;
+}
+.text-correct {
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    border-right: 3px solid;
+    width: 29ch;
+    color: #DEDEDE;
+    font-weight: 900;
+    animation: typing 2s steps(28), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent;}
+}
+
+/*fondo animado de los modales*/
+.bg-modals{
+    background: linear-gradient(-45deg, #0039BD,#039BD3,#DEDEDE);
+    background-size: 300% 300%;
+    animation:  gradient 10s ease infinite;
+    opacity: 0.9;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
